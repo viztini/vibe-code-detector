@@ -24,12 +24,12 @@ class AIDetector:
         # Keyword/Regex markers
         self.markers = [
             Finding('conversational', 'Presence of em dashes (—)', 15),
-            Finding('stylistic', 'Presence of emojis (✨, 🚀, etc.)', 10),
-            Finding('conversational', 'Polite/Conversational phrasing (Sure, Certainly, etc.)', 25),
+            Finding('stylistic', 'Presence of emojis', 10),
+            Finding('conversational', 'Polite/Conversational phrasing', 25),
             Finding('structural', 'Markdown code fence artifacts', 30),
-            Finding('structural', 'Instructional boilerplate (Step 1, Step 2, etc.)', 20),
+            Finding('structural', 'Instructional boilerplate', 20),
             Finding('structural', 'Standard Google/Sphinx docstring sections', 25),
-            Finding('stylistic', '"Too Perfect" formatting (zero trailing whitespace/inconsistencies)', 15)
+            Finding('stylistic', '"Too Perfect" formatting)', 15)
         ]
 
         self.re_em_dash = re.compile(r'—')
