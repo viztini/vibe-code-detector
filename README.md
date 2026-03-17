@@ -23,7 +23,7 @@ Ensure you have Python 3.7+ installed. No external dependencies are required, th
 2.  (Optional) Make it executable (Linux) :
 
     ```bash
-    chmod +x detector.py
+    chmod +x ai_detector.py
     ```
 
 ---
@@ -34,13 +34,13 @@ Run the script from your terminal by providing a path to a file or directory.
 
 #### Basic Scan
 ```bash
-python detector.py ./my_project
+python ai_detector.py /my_project
 ```
 
 #### Detailed Scan (Verbose)
 Use the `-v` or `--verbose` flag to see exactly which markers triggered the score for each file.
 ```bash
-python detector.py path/to/file.py -v
+python ai_detector.py path/to/file.py -v
 ```
 
 ---
