@@ -4,7 +4,7 @@ This is a lightweight Python utility designed to identify code or documentation 
 
 ---
 
-### ## Features
+### Features
 
 * **Heuristic-Based Scoring:** Analyzes files for em-dashes, emojis, and polite conversational phrasing often used by AI.
 * **Structural Analysis:** Detects Markdown code fence leftovers (e.g., ` ```python `) and instructional boilerplate.
@@ -15,7 +15,7 @@ This is a lightweight Python utility designed to identify code or documentation 
 
 ---
 
-### ## Installation
+### Installation
 
 Ensure you have Python 3.7+ installed. No external dependencies are required, the script uses the Python Standard Library.
 
@@ -45,7 +45,7 @@ python ai_detector.py path/to/file.py -v
 
 ---
 
-### ## Scoring Logic
+### Scoring Logic
 
 The detector assigns a score from **0 to 100**. The higher the score, the more likely the code was AI-generated.
 
@@ -83,7 +83,7 @@ Average AI Score:    50.0
 
 ---
 
-### ## Limitations
+### Limitations
 
 * **False Positives:** Highly disciplined developers who use strict documentation standards (Google/Sphinx) and clean formatting may receive higher scores.
 * **False Negatives:** Highly customized or "lazy" AI prompts that omit docstrings and conversational filler may pass undetected.
