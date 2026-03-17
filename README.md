@@ -28,11 +28,11 @@ Ensure you have Python 3.7+ installed. No external dependencies are required, th
 
 ---
 
-### ## Usage
+### Usage
 
 Run the script from your terminal by providing a path to a file or directory.
 
-#### Basic Scan
+### Basic Scan
 ```bash
 python ai_detector.py /my_project
 ```
