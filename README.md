@@ -19,7 +19,7 @@ This is a lightweight Python utility designed to identify code or documentation 
 
 Ensure you have Python 3.7+ installed. No external dependencies are required, the script uses the Python Standard Library.
 
-1.  Save the script as `detector.py`.
+1.  Save the script as `ai_detector.py`.
 2.  (Optional) Make it executable (Linux) :
 
     ```bash
